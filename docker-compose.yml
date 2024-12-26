@@ -1,7 +1,0 @@
-services:
-    myapp:
-        build:
-            context: .
-            dockerfile: .deploy/Dockerfile
-        extra_hosts:
-            - "host.docker.internal:host-gateway"
