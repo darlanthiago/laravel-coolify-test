@@ -107,7 +107,7 @@ ARG MIX_PUSHER_APP_KEY=${MIX_PUSHER_APP_KEY}
 ARG MIX_PUSHER_APP_CLUSTER=${MIX_PUSHER_APP_CLUSTER}
 
 
-RUN composer dump-autoload --no-interaction --no-dev --optimize
+RUN composer dump-autoload --no-interaction --optimize
 
 # Start app
 EXPOSE 80
