@@ -10,7 +10,7 @@ echo "🎬 artisan commands"
 # 💡 Group into a custom command e.g. php artisan app:on-deploy
 php artisan migrate --no-interaction --force
 php artisan storage:link
-# php artisan horizon:publish
+php artisan horizon:publish
 
 echo "🎬 start supervisord"
 
